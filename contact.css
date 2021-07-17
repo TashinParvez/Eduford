@@ -1,0 +1,71 @@
+.row {
+  width: 83%;
+  margin: auto;
+  padding: 4px ​0px 0px 0px;
+  text-align: center;
+}
+.row .contact-col {
+  flex-basis: 48%;
+  padding: 77px 0px 65px 0px;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-field input,
+.input-field textarea {
+  padding: 11px 0px 11px 15px;
+  color: black;
+  margin: 10px 0px;
+  width: 100%;
+  outline: 0;
+  border: 1.5px solid #ccd;
+  box-sizing: border-box;
+}
+.send-btn {
+  align-self: flex-start;
+  margin-top: 14px;
+}
+.address {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.address div {
+  display: flex;
+  align-items: center;
+}
+div .fas {
+  color: #f44336;
+  font-size: 28px;
+}
+div span {
+  padding: 0px 0px 0px 25px;
+}
+span h5 {
+  font-size: 17px;
+  color: #555;
+  font-weight: 600;
+}
+div span p {
+  color: #999;
+  font-size: 13px;
+}
+.location {
+  width: 100%;
+  height: 90%;
+}
+.location iframe {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .row .contact-col {
+    flex-basis: 48%;
+    padding: 42px 0px 40px 0px;
+  }
+  .address {
+    text-align: left;
+    margin-bottom: 51px;
+  }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ========= Title Segment ======= -->
+    <title>Eduford</title>
+
+    <!-- ========= CSS Segment ======= -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="contact.css" />
+
+    <!-- ========= Font Segment ======= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ========= Icon Segment (star) ======= -->
+    <script
+      src="https://kit.fontawesome.com/4def695b3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- ========= Header Segment Start ======= -->
+    <header class="sub-header">
+      <nav class="header-segment">
+        <a href="index.html"><img class="web-logo" src="image/logo.png" /></a>
+        <div class="navbar nav-links" id="navLinks">
+          <!-- <i class="fas fa-bars sidebar-icons" onelick="hidemenu()"></i> -->
+
+          <ul class="li-container">
+            <li class="nav-content"><a href="index.html">HOME</a></li>
+            <li class="nav-content"><a href="about.html">ABOUT</a></li>
+            <li class="nav-content"><a href="course.html">COURSE</a></li>
+            <li class="nav-content"><a href="blog.html">BLOG</a></li>
+            <li class="nav-content"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <br />
+
+        <!-- <i class="fas fa-times sidebar-icons" onelick="showmenu()"></i> -->
+      </nav>
+      <h1>Contact Us</h1>
+    </header>
+    <!-- ========= Header Segment End ======= -->
+    <main>
+      <!-- ========= Contact us Segment start ======= -->
+      <segment class="contact-segment">
+        <div class="row">
+          <div class="contact-col">
+            <form class="input-field">
+              <input
+                type="text"
+                placeholder="Enter Your Name"
+                autocomplete="off"
+              />
+              <input
+                type="mail"
+                placeholder="Enter Your Email Address"
+                autocomplete="off"
+              />
+              <input
+                type="text"
+                rows="1"
+                placeholder="Enter Your Subject"
+                autocomplete="off"
+              />
+              <textarea rows="5" placeholder="Message"></textarea>
+              <button type="submit" class="header-btn explore-btn send-btn">
+                Send Us Message
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-col">
+            <div class="address">
+              <div>
+                <i class="fas fa-home"></i>
+                <span>
+                  <h5>XYZ Road, ABC Building</h5>
+                  <p>Uttara-Dhaka, Bangladesh</p>
+                </span>
+              </div>
+
+              <div>
+                <i class="fas fa-phone-alt"></i>
+                <span>
+                  <h5>+099 732032</h5>
+                  <p>Monday To Saturday, 10AM To 6PM</p>
+                </span>
+              </div>
+
+              <div>
+                <i class="fas fa-envelope"></i>
+                <span>
+                  <h5>info@eduford.com</h5>
+                  <p>Email Us Your query</p>
+                </span>
+              </div>
+            </div>
+
+            <div class="location">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1826.6382881744846!2d90.4474819379689!3d23.701815373405495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9daabf8adcd%3A0x9987f78dcc87d5ed!2sIslami%20Bank%20Bangladeah%20LTD.%20Donia%20Branch!5e0!3m2!1sen!2sbd!4v1626496017686!5m2!1sen!2sbd"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </segment>
+
+      <!-- =========  Contact us Segment End ======= -->
+    </main>
+
+    <!-- ========= Footer Segment Start ======= -->
+    <footer>
+      <segment class="footer">
+        <h4>About Us</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+          error magnam<br />
+          quibusdam delectus accusantium, quo vel, nam assumenda quae totam
+          libero exercitationem ipsa provident.
+        </p>
+        <div class="f-icones">
+          <a href="https://www.facebook.com/tashin.parvez.5/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/tashin_parvez/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <i class="fab fa-twitter"></i>
+          <a href="https://github.com/TashinParvez"
+            ><i class="fab fa-github"></i
+          ></a>
+          <i class="fab fa-linkedin"></i>
+        </div>
+
+        <p>Copyright © 2021 Eduford || Developed by: Tashin Parvez</p>
+      </segment>
+    </footer>
+    <!-- ========= Footer Segment End ======= -->
+
+    <!-- ============== Java Script Segment for menu ================= -->
+    <script>
+      var navLinks = document.getElementsByID("navLinks");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

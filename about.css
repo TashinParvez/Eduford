@@ -1,0 +1,63 @@
+.sub-header {
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(image/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.sub-header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin: 52px 0px 0px 0px;
+  color: #fff;
+}
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.about-us .row {
+  margin: 5%;
+}
+.about-col {
+  flex-basis: 48%;
+  padding: 30px 56px;
+}
+
+.about-col img {
+  width: 100%;
+}
+.about-col h1 {
+  padding-top: 0;
+}
+.about-col p {
+  padding: 15px 0px 25px 0px;
+}
+.explore-btn {
+  border: 2px solid #f44336;
+  color: #f44336;
+  background: transparent;
+}
+.explore-btn:hover {
+  color: #fff;
+}
+
+@media screen and (max-width:800px){
+  .f-icones .fab {
+    padding: 18px 0 38px 0px;
+  }
+
+.footer h4{
+  font-size: 24px;
+  margin-bottom: 13px;
+}
+
+.about-col {
+  flex-basis: 48%;
+  padding: 30px 8px;
+}
+
+}

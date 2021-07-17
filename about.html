@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ========= Title Segment ======= -->
+    <title>Eduford</title>
+
+    <!-- ========= CSS Segment ======= -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
+
+    <!-- ========= Font Segment ======= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ========= Icon Segment (star) ======= -->
+    <script
+      src="https://kit.fontawesome.com/4def695b3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- ========= Header Segment Start ======= -->
+    <header class="sub-header">
+      <nav class="header-segment">
+        <a href="index.html"><img class="web-logo" src="image/logo.png" /></a>
+        <div class="navbar nav-links" id="navLinks">
+          <!-- <i class="fas fa-bars sidebar-icons" onelick="hidemenu()"></i> -->
+
+          <ul class="li-container">
+            <li class="nav-content"><a href="index.html">HOME</a></li>
+            <li class="nav-content"><a href="about.html">ABOUT</a></li>
+            <li class="nav-content"><a href="course.html">COURSE</a></li>
+            <li class="nav-content"><a href="blog.html">BLOG</a></li>
+            <li class="nav-content"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <br />
+
+        <!-- <i class="fas fa-times sidebar-icons" onelick="showmenu()"></i> -->
+      </nav>
+      <h1>About Us</h1>
+    </header>
+    <!-- ========= Header Segment End ======= -->
+    <main>
+      <!-- ========= About us Segment start ======= -->
+      <segment class="about-us">
+        <div class="row">
+          <div class="about-col">
+            <h1>We are the world's largest University</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
+              velit vitae exercitationem placeat harum, doloribus numquam
+              pariatur culpa assumenda porro unde provident quidem recusandae
+              ipsa magnam adipisci nihil debitis inventore voluptate, minus
+              mollitia amet blanditiis deserunt optio. Deleniti sequi voluptas
+              maxime at nobis, excepturi numquam qui, laboriosam nostrum
+              aspernatur cumque officia. Quaerat, illum provident. Consequuntur
+              quae, perferendis pariatur enim accusantium molestiae sequi nobis
+              praesentium numquam?
+            </p>
+            <a class="header-btn explore-btn">EXPLORE NOW</a>
+          </div>
+
+          <div class="about-col">
+            <img src="image/about.jpg" />
+          </div>
+        </div>
+      </segment>
+      <!-- ========= About us Segment End ======= -->
+    </main>
+
+    <!-- ========= Footer Segment Start ======= -->
+    <footer>
+      <segment class="footer">
+        <h4>About Us</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+          error magnam<br />
+          quibusdam delectus accusantium, quo vel, nam assumenda quae totam
+          libero exercitationem ipsa provident.
+        </p>
+
+        <div class="f-icones">
+          <a href="https://www.facebook.com/tashin.parvez.5/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/tashin_parvez/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <i class="fab fa-twitter"></i>
+          <a href="https://github.com/TashinParvez"
+            ><i class="fab fa-github"></i
+          ></a>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Copyright © 2021 Eduford || Developed by: Tashin Parvez</p>
+      </segment>
+    </footer>
+    <!-- ========= Footer Segment End ======= -->
+
+    <!-- ============== Java Script Segment for menu ================= -->
+    <script>
+      var navLinks = document.getElementsByID("navLinks");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
